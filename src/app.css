@@ -1,0 +1,87 @@
+@import "@fontsource/fira-mono";
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../static/fonts/iransans/eot/IRANSansWeb.eot");
+  src: url("../static/fonts/iransans/eot/IRANSansWeb.eot?#iefix")
+  format("embedded-opentype"),
+  url("../static/fonts/iransans/woff2/IRANSansWeb.woff2") format("woff2"),
+  url("../static/fonts/iransans/woff/IRANSansWeb.woff") format("woff"),
+  url("../static/fonts/iransans/ttf/IRANSansWeb.ttf") format("truetype");
+}
+:root {
+  --pure-white: #ffffff;
+  --primary-color: #b9c6d2;
+  --secondary-color: #d0dde9;
+  --tertiary-color: #edf0f8;
+  --accent-color: #ff3e00;
+  --heading-color: rgba(0, 0, 0, 0.7);
+  --background-without-opacity: rgba(255, 255, 255, 0.7);
+  --column-width: 42rem;
+  --column-margin-top: 4rem;
+  /*------------------------*/
+  --color-blue: #007fff;
+  --text-color: #414042;
+  --text-color-again: #666666 ;
+  --text-color-base: #767676;
+  --text-blue: var(--color-blue);
+  --color-border: var(--color-blue);
+
+  --font12: 0.75rem;
+  --font14: 0.875rem;
+  --font16: 1rem;
+  --font18: 1.125rem;
+  --font20: 1.25rem;
+  --font30: 1.875rem;
+  --font40: 2.5rem;
+  --bg-main: #fff;
+}
+html {
+  font-size: 16px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  background-color: var(--bg-main);
+  font-family: IRANSans;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: IRANSans;
+}
+#svelte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.svelte-fp-indicator{
+  display: none !important;
+}
+section{
+  width: 100%;
+}
+section > div{
+  width: 100%;
+}
+@media screen and (max-width: 432px) {
+  html{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 390px) {
+  html{
+    font-size: 10px;
+  }
+}
