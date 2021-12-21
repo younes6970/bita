@@ -86,7 +86,7 @@
     .boxUl li{
         margin-top: 4px;
     }
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 1100px){
         .boxSliders{
             padding: 0;
         }

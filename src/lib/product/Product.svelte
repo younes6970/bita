@@ -87,14 +87,19 @@
             transform: scale(0.85);
         }
     }
-    @media screen and (max-width: 1024px){
-        /*.fixBoxProduct{*/
-        /*    flex-direction: column;*/
-        /*}*/
+    @media screen and (max-width: 1100px){
+        .boxProductAnim{
+            transform: scale(0.6);
+        }
         .boxProductText{
             transform: scale(0.7);
         }
 
+    }
+    @media screen and (max-width: 1000px) {
+        .fixBoxProduct{
+            flex-direction: column;
+        }
     }
     @media screen and (max-width: 991px){
         .boxProductAnim{

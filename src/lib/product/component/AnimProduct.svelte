@@ -252,7 +252,7 @@
         right: 7%;
         bottom: 29%;
     }
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 1100px){
 
         .phone{
             right: 78%;
