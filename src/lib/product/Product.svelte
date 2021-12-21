@@ -73,7 +73,7 @@
 
     @media screen and (max-width: 1440px) {
         .boxProductAnim{
-            transform: scale(0.8);
+            transform: scale(0.75);
         }
         .boxProductText{
             transform: scale(0.85);
@@ -81,24 +81,20 @@
     }
     @media screen and (max-width: 1336px) {
         .boxProductAnim{
-            transform: scale(0.8);
+            transform: scale(0.65);
         }
         .boxProductText{
             transform: scale(0.85);
         }
     }
     @media screen and (max-width: 1024px){
-        .fixBoxProduct{
-            flex-direction: column;
-        }
-        .boxProductAnim{
-            width: 100%;
-            justify-content: center;
-            transform: scale(0.9);
-        }
+        /*.fixBoxProduct{*/
+        /*    flex-direction: column;*/
+        /*}*/
         .boxProductText{
-            transform: scale(1);
+            transform: scale(0.7);
         }
+
     }
     @media screen and (max-width: 991px){
         .boxProductAnim{
