@@ -25,34 +25,28 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        margin: 10px 0 10px 40px;
+        margin: 0 0 0 30px;
     }
     .boxFooterIcon{
-        width: 40px;
-        height: 40px;
+        width: 25px;
+        height: 25px;
         border-radius: 100%;
         background-color: #fff;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 35px;
+        margin-left: 10px;
     }
     .footerTextContext{
-        font-size: var(--font18);
+        font-size: var(--font12);
         color: #fff;
         margin: 0;
     }
 
     @media screen and (max-width: 480px) {
-        .footerTextContext{
-            font-size: var(--font14);
-        }
-        .boxFooter{
-            margin: 0;
-        }
+
+
         .boxFooterIcon{
-            width: 30px;
-            height: 30px;
             margin-left: 5px;
         }
     }

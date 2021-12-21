@@ -12,7 +12,7 @@
             </p>
         </div>
         <div class="boxCRItem">
-            {#if innerWidth > 480}
+            {#if innerWidth > 1100}
                 <LisCooperationRequest title="مارکتینگ"  iconId="{1}" isMobile="{innerWidth > 480}" on:onCv />
                 <LisCooperationRequest title="تیم محصول" iconId="{2}" isMobile="{innerWidth > 480}" on:onCv />
                 <LisCooperationRequest title="پشتیبانی" iconId="{3}" isMobile="{innerWidth > 480}" on:onCv />
@@ -65,7 +65,7 @@
        margin: 0 0 10px;
    }
    .boxCooperationRequestText{
-       width: 500px;
+       width: 85%;
        text-align: center;
        font-size: var(--font18);
        color: var(--text-color-again);

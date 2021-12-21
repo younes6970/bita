@@ -97,20 +97,28 @@
   .text{
       margin: 0 0 0 10px;
   }
-
-    @media screen and (max-width: 1024px) {
-        .fixBoxAbout{
-            flex-direction: column;
-        }
-        .boxAboutText{
-            justify-content: center;
-        }
-        .boxAboutAnim{
-            width: 100%;
-            justify-content: center;
-            align-items: end;
+    @media screen and (max-width: 1400px) {
+        .boxDescriptionAbout{
+            padding-right: 20px;
         }
     }
+    @media screen and (max-width: 1024px) {
+
+
+    }
+  @media screen and (max-width: 1000px) {
+      .fixBoxAbout{
+          flex-direction: column;
+      }
+      .boxAboutText{
+          justify-content: center;
+      }
+      .boxAboutAnim{
+          width: 100%;
+          justify-content: center;
+          align-items: end;
+      }
+  }
     @media screen and (max-width: 480px){
         .boxAbout{
             margin-top: 55px;

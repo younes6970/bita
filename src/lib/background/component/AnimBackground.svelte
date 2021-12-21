@@ -168,7 +168,12 @@
         right: 14%;
         top: 26%;
     }
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1400px) {
+        .iconBase{
+            transform: scale(0.7);
+        }
+    }
+    @media screen and (max-width: 1000px) {
         .boxIconBase{
             justify-content: center;
         }

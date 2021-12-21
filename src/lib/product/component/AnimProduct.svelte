@@ -257,9 +257,17 @@
         .phone{
             right: 78%;
         }
-.app{
-    right: 87%;
-}
+        .app{
+            right: 87%;
+        }
+    }
+    @media screen and (max-width: 1000px){
+        .phone{
+            right: 58%;
+        }
+        .app{
+            right: 64%;
+        }
     }
     @media screen and (max-width: 432px) {
         .boxAnim{

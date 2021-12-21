@@ -141,12 +141,19 @@
         left: 72.5%;
     }
 
-    @media screen and (max-width:1366px ) {
+    @media screen and (max-width:1400px ) {
         .pcIcon{
             transform: scale(0.85);
+            bottom: 10%;
         }
     }
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1100px) {
+        .pcIcon{
+            transform: scale(0.6);
+            bottom: -18%;
+        }
+    }
+        @media screen and (max-width: 1000px) {
         .pc{
             justify-content: center;
             align-items: end;

@@ -57,7 +57,12 @@
         align-items: center;
         position: relative;
     }
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1400px){
+        .boxBackgroundTitle{
+            padding-right: 20px;
+        }
+    }
+    @media screen and (max-width: 1000px) {
         .fixBoxBackground{
             flex-direction: column;
         }
