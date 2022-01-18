@@ -71,15 +71,7 @@
         height: 300px;
     }
 
-    @media screen and (max-width: 1440px) {
-        .boxProductAnim{
-            transform: scale(0.8);
-        }
-        .boxProductText{
-            transform: scale(0.85);
-        }
-    }
-    @media screen and (max-width: 1336px) {
+    @media screen and (max-width: 1550px) {
         .boxProductAnim{
             transform: scale(0.8);
         }
@@ -110,7 +102,7 @@
             transform: scale(0.8);
         }
     }
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 770px){
         .boxProductAnim{
             width: 100%;
             justify-content: center;

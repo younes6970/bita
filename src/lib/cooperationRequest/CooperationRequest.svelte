@@ -65,7 +65,7 @@
        margin: 0 0 10px;
    }
    .boxCooperationRequestText{
-       width: 500px;
+       width: 85%;
        text-align: center;
        font-size: var(--font18);
        color: var(--text-color-again);
@@ -73,8 +73,8 @@
    }
    .boxCRItem{
        max-width: 1300px;
-       width: 100%;
-       padding: 20px;
+       width: 98%;
+       padding: 15px;
        display: flex;
        flex-wrap: wrap;
        justify-content: center;

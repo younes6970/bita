@@ -19,32 +19,32 @@
                 <LayoutPc />
             </div>
         </Motion>
-            <Motion initial={{translateX : -60 , opacity:0}} animate={{translateX: 0 , opacity :1}} transition={{ duration: 0.5 }} let:motion>
+        <Motion initial={{translateX : -60 , opacity:0}} animate={{translateX: 0 , opacity :1}} transition={{ duration: 0.5 }} let:motion>
                 <div class="layoutPcTwo" use:motion>
                     <LayoutPcTwo />
                 </div>
             </Motion>
-            <Motion initial={{translateX : -65 , opacity:0}} animate={{translateX: 0 , opacity :1}} transition={{ duration: 0.55 }} let:motion>
+        <Motion initial={{translateX : -65 , opacity:0}} animate={{translateX: 0 , opacity :1}} transition={{ duration: 0.55 }} let:motion>
                 <div class="textAbout" use:motion>
                     <TextAbout />
                 </div>
             </Motion>
-            <Motion initial={{translateX : -65 , opacity:0}} animate={{translateX: 0 , opacity :1}} transition={{ duration: 0.55 }} let:motion>
+        <Motion initial={{translateX : -65 , opacity:0}} animate={{translateX: 0 , opacity :1}} transition={{ duration: 0.55 }} let:motion>
                 <div class="textAboutTwo" use:motion>
                     <TextAboutTwo />
                 </div>
             </Motion>
-            <Motion initial={{translateX : -65 , opacity:0}} animate={{translateX: 0 , opacity :1}} transition={{ duration: 0.55 }} let:motion>
+        <Motion initial={{translateX : -65 , opacity:0}} animate={{translateX: 0 , opacity :1}} transition={{ duration: 0.55 }} let:motion>
                 <div class="textAboutThree" use:motion>
                     <TextAboutThree />
                 </div>
             </Motion>
-            <Motion initial={{translateX : -65 , opacity:0}} animate={{translateX: 0 , opacity :1}} transition={{ duration: 0.55 }} let:motion>
+        <Motion initial={{translateX : -65 , opacity:0}} animate={{translateX: 0 , opacity :1}} transition={{ duration: 0.55 }} let:motion>
                 <div class="imgAbout" use:motion>
                     <ImgAbout />
                 </div>
             </Motion>
-            <Motion initial={{translateX : -65 , opacity:0}} animate={{translateX: 0 , opacity :1}} transition={{ duration: 0.65 }} let:motion>
+        <Motion initial={{translateX : -65 , opacity:0}} animate={{translateX: 0 , opacity :1}} transition={{ duration: 0.65 }} let:motion>
                 <div class="imgAboutText" use:motion>
                     <ImgAboutText />
                 </div>
@@ -65,8 +65,8 @@
         position: relative;
     }
     .pcIcon{
-        width: 485px;
-        height: 560px;
+        width: 465px;
+        height: 500px;
         position: absolute;
         left: 0;
         bottom: 20%;
@@ -140,8 +140,12 @@
         top: 11.5%;
         left: 72.5%;
     }
-
-    @media screen and (max-width:1366px ) {
+@media screen and (max-height: 730px) {
+    .pcIcon{
+        bottom: 5%;
+    }
+}
+    @media screen and (max-width:1550px ) {
         .pcIcon{
             transform: scale(0.85);
         }
