@@ -8,16 +8,16 @@
 	import 'swiper/css/pagination';
 	import 'swiper/css/scrollbar';
 	import { Fullpage, FullpageSection } from 'svelte-fullpage'
-	import Header from "$lib/header/Header.svelte";
-	import Product from "$lib/product/Product.svelte";
-	import AboutCompany from "$lib/aboutCompany/AboutCompany.svelte";
-	import SpecialServices from "$lib/specialServices/SpecialServices.svelte";
-	import Background from "$lib/background/Background.svelte";
-	import CooperationRequest from "$lib/cooperationRequest/CooperationRequest.svelte";
-	import Managers from "$lib/managers/Managers.svelte";
-	import Sidebar from "$lib/header/component/Sidebar.svelte";
-	import {DATA_HEADER} from "$lib/header/data";
-	import Modal from "$lib/cooperationRequest/component/Modal.svelte";
+	import Header from "../lib/header/Header.svelte";
+	import Product from "../lib/product/Product.svelte";
+	import AboutCompany from "../lib/aboutCompany/AboutCompany.svelte";
+	import SpecialServices from "../lib/specialServices/SpecialServices.svelte";
+	import Background from "../lib/background/Background.svelte";
+	import CooperationRequest from "../lib/cooperationRequest/CooperationRequest.svelte";
+	import Managers from "../lib/managers/Managers.svelte";
+	import Sidebar from "../lib/header/component/Sidebar.svelte";
+	import {DATA_HEADER} from "../lib/header/data";
+	import Modal from "../lib/cooperationRequest/component/Modal.svelte";
 
 	let num = 0
 	let open = false

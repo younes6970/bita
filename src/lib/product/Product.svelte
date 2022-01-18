@@ -71,10 +71,9 @@
         height: 300px;
     }
 
-<<<<<<< HEAD
+
     @media screen and (max-width: 1550px) {
-=======
-    @media screen and (max-width: 1440px) {
+
         .boxProductAnim{
             transform: scale(0.75);
         }
@@ -83,12 +82,8 @@
         }
     }
     @media screen and (max-width: 1336px) {
->>>>>>> 87e88aa9336b58572c8b975c9e80bdabfec76eb4
         .boxProductAnim{
             transform: scale(0.65);
-        }
-        .boxProductText{
-            transform: scale(0.85);
         }
     }
     @media screen and (max-width: 1100px){
