@@ -35,8 +35,8 @@
     .listManagers{
         position:relative;
         margin: 0 50px;
-        width: 230px;
-        height: 230px;
+        width: 180px;
+        height: 180px;
     }
     .listManagersM{
         position:relative;

@@ -42,7 +42,7 @@
     .managers{
         margin-top: 85px;
         width: 100%;
-        height: calc(100% - 85px);
+        height: calc(100% - 135px);
         padding: 15px;
         display: flex;
         align-items: center;
@@ -83,7 +83,9 @@
     footer{
         width: 100%;
         background-color: var(--text-blue);
-        padding: 15px 0;
+        display: flex;
+        justify-content: center;
+        height: 50px;
     }
     .boxFooter{
         width: 100%;
@@ -112,14 +114,24 @@
         color: #fff;
         margin: 0;
     }
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1400px) {
         .boxManagersImg{
             justify-content: space-around;
             flex-wrap: wrap;
         }
+    }
+    @media screen and (max-width: 1000px) {
+
         .boxFooter{
             flex-direction: column;
             justify-content: space-around;
+        }
+        footer{
+            height: 80px;
+        }
+        .managers{
+            height: calc(100% - 160px);
+
         }
     }
     @media screen and (max-width: 480px) {

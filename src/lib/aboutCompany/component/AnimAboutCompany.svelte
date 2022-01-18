@@ -140,17 +140,29 @@
         top: 11.5%;
         left: 72.5%;
     }
+<<<<<<< HEAD
 @media screen and (max-height: 730px) {
     .pcIcon{
         bottom: 5%;
     }
 }
     @media screen and (max-width:1550px ) {
+=======
+
+    @media screen and (max-width:1400px ) {
+>>>>>>> 87e88aa9336b58572c8b975c9e80bdabfec76eb4
         .pcIcon{
             transform: scale(0.85);
+            bottom: 10%;
         }
     }
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1100px) {
+        .pcIcon{
+            transform: scale(0.6);
+            bottom: -18%;
+        }
+    }
+        @media screen and (max-width: 1000px) {
         .pc{
             justify-content: center;
             align-items: end;

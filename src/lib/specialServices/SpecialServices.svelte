@@ -17,7 +17,18 @@
             </p>
         </div>
         <div class="specialServicesMain">
-            <ul class="boxUl">
+            <ul class="boxUlR">
+                <Motion
+                        initial={{opacity: 0  , x: "-20vw"}}
+                        animate={{opacity : 1 , x:0}}
+                        transition={{ duration:  1.5 * 0.3 }}
+                        let:motion
+                >
+                    <li use:motion>
+                        مشارکت در ایده های فناورانه در صنعت کشاورزی
+                    </li>
+                </Motion>
+
                 <Motion
                         initial={{opacity: 0  , x: "-20vw"}}
                         animate={{opacity : 1 , x:0}}
@@ -28,21 +39,11 @@
                     تولید سامانه های سفارشی
                 </li>
                 </Motion>
-                <Motion
-                        initial={{opacity: 0  , x: "-20vw"}}
-                        animate={{opacity : 1 , x:0}}
-                        transition={{ duration:  1.5 * 0.3 }}
-                        let:motion
-                >
-                <li use:motion>
-                    مشارکت در ایده های فناورانه در صنعت کشاورزی
-                </li>
-                </Motion>
             </ul>
             <div class="boxSpecialServicesAnim">
                 <AnimSpecialServices />
             </div>
-                <ul class="boxUl">
+            <ul class="boxUlL">
                     <Motion
                             initial={{opacity: 0  , x: "-20vw"}}
                             animate={{opacity : 1 , x:0}}
@@ -135,15 +136,37 @@
         height: 100%;
         z-index: 100;
     }
-    .boxUl{
+    .boxUlR{
         margin: 0;
-        padding: 0;
-        list-style: circle;
+        padding: 30px 0;
+        list-style: none;
         z-index: 100;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 100%;
     }
-    .boxUl li {
-        padding: 35px 0;
+    .boxUlL{
+        margin: 0;
+        padding: 30px 0;
+        list-style: none;
         z-index: 100;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+        height: 100%;
+    }
+    .boxUlR li {
+        padding: 0 ;
+        z-index: 100;
+        text-align: right;
+    }
+    .boxUlL li {
+        padding: 0;
+        z-index: 100;
+        text-align: left;
     }
     .boxSpecialServicesAnim{
         display: flex;
@@ -153,12 +176,25 @@
         width: 470px;
         height: 470px;
     }
-    @media screen and (max-width: 1024px ) {
+    @media screen and (max-width: 1200px ) {
         .boxSpecialServicesAnim{
-            transform: scale(0.9);
+            transform: scale(0.7);
         }
     }
-    @media screen and (max-width: 900px) {
+    @media screen and (min-width: 1000px){
+        @media screen and (max-height: 630px) {
+            .boxSpecialServicesAnim{
+               margin-bottom: 135px;
+            }
+            .boxUlR{
+                padding: 0 0 50px;
+            }
+            .boxUlL{
+                padding: 0 0 50px;
+            }
+        }
+    }
+    @media screen and (max-width: 1020px) {
         .fixSpecialServices{
             justify-content: space-evenly;
         }
@@ -166,8 +202,17 @@
             flex-direction: column;
             height: auto;
         }
-        .leftLi{
-            margin-right: 0;
+        .boxUlL{
+            height: 0;
+        }
+        .boxUlL li {
+            margin: 5px 0;
+        }
+        .boxUlR {
+            height: 0;
+        }
+        .boxUlR li{
+            margin: 5px 0;
         }
     }
     @media screen and (max-width: 480px){

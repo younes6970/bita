@@ -71,25 +71,38 @@
         height: 300px;
     }
 
+<<<<<<< HEAD
     @media screen and (max-width: 1550px) {
+=======
+    @media screen and (max-width: 1440px) {
         .boxProductAnim{
-            transform: scale(0.8);
+            transform: scale(0.75);
         }
         .boxProductText{
             transform: scale(0.85);
         }
     }
-    @media screen and (max-width: 1024px){
-        .fixBoxProduct{
-            flex-direction: column;
-        }
+    @media screen and (max-width: 1336px) {
+>>>>>>> 87e88aa9336b58572c8b975c9e80bdabfec76eb4
         .boxProductAnim{
-            width: 100%;
-            justify-content: center;
-            transform: scale(0.9);
+            transform: scale(0.65);
         }
         .boxProductText{
-            transform: scale(1);
+            transform: scale(0.85);
+        }
+    }
+    @media screen and (max-width: 1100px){
+        .boxProductAnim{
+            transform: scale(0.6);
+        }
+        .boxProductText{
+            transform: scale(0.7);
+        }
+
+    }
+    @media screen and (max-width: 1000px) {
+        .fixBoxProduct{
+            flex-direction: column;
         }
     }
     @media screen and (max-width: 991px){
