@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f8015a4-ce04-44e3-bd7e-109f130c8b68" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.rar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Admin.Henwork.com-Front" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -44,7 +42,7 @@
       <updated>1642506512350</updated>
       <workItem from="1642506513798" duration="342000" />
       <workItem from="1642507134787" duration="94000" />
-      <workItem from="1642507418676" duration="1518000" />
+      <workItem from="1642507418676" duration="1973000" />
     </task>
     <servers />
   </component>
